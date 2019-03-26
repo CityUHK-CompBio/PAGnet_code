@@ -1,0 +1,1 @@
+STAR --runThreadN 60 --genomeDir ../PA_Index --readFilesIn ~/PA/RNA-seq/HLR1_ATCACG_L007_R1_001.fastq.gz_R1.fastq.gz.cutadapt.fastq ./RNA-seq/HLR1_ATCACG_L007_R2_001.fastq.gz --outFilterMultimapNmax 1 --outSAMtype BAM Unsorted --outFileNamePrefix ./RNAseq_alignment_results/HLR1_ --quantMode GeneCounts
